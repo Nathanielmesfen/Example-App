@@ -16,7 +16,7 @@ class _CartpageState extends State<Cartpage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.lightBlue,
-        title: Text('E commerce business'),
+        title: const Text('E commerce business'),
       ),
       drawer: Drawer(
         child: ListView(
